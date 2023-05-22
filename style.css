@@ -1,0 +1,139 @@
+/* Stile Generale */
+body{
+    background-color: #0D1117;
+}
+
+div{
+    cursor: pointer;
+}
+
+/* Stile delle colonne */
+
+.list-pokemon{
+    height: 800px;
+    width: 500px;
+    background-color: gold;
+    overflow-y: auto;
+}
+
+.detail-pokemon{
+    height: 800px;
+    width: 500px;
+    background-color: #6b3ea9;
+}
+
+/* Stile dei nomi dei pokemon */
+.pokemon-name{
+    color: #6b3ea9;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* Immagini sprite */
+.pokemon-info img{
+    width: 250px;
+    height: 250px;
+}
+
+/* Descrizione Pokemon */
+
+.pokemon-description{
+    color: gold;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+
+/* Tipi dei pokemon */
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+}
+
+.rock {
+    background-color: sienna;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
