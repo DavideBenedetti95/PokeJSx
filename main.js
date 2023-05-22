@@ -96,7 +96,7 @@ function updatePokemon(){
         let type = document.createElement("span");
         type.innerText = types[i]["type"]["name"].toUpperCase();
         
-        // Qui andiamo a prendere il nome della classe di ogni tipo per creare un background diverso per ogni tipo.
+        // Qui andiamo ad aggiungere una classe che ha come nome il nome del tipo del pokemon per poter creare background diversi per ogni tipo.
         type.classList.add(types[i]["type"]["name"]);
 
         // Infine appendiamo gli span appena creati al div catturato in precedenza
