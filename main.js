@@ -34,22 +34,22 @@ window.onload = async function(){
 
 // Questa funzione asincrona fa partire le richieste per raccogliere i dati
 async function getPokemon(number){
-    // qui incapsuliamo l'url , queste e' una chiamata SINCRONA
+    // qui incapsuliamo l'url
     let url = `https://pokeapi.co/api/v2/pokemon/${number}`;
 
     // Adesso agiamo in modo asincrono per recuperare il dato direttamente dall'url incapsulato precedentemente
     let response = await fetch(url);
     // console.log(response);
     
-    // Dopo aver fatto partire la richiesta sopra, incapsuliamo il risultato e trasformiamo la promise in oggetto json.
+    // Dopo aver fatto partire la richiesta sopra, incapsuliamo il risultato e trasformiamo la response in oggetto json.
     let pokemon = await response.json();
     // console.log(pokemon);
 
-    // a questo punto lavorando con un oggetto possiamo raccogliere i dati singoli necessari. in questo caso possiamo usare la dot syntax perche il campo name e' semplicemente una stringa. Esempio {name: bulbasaur}
+    // a questo punto lavorando con un oggetto possiamo raccogliere i dati che ci interessano. Esempio {name: bulbasaur}
     let pokemonName = pokemon["name"];
     // console.log(pokemonName);
     
-    // In questo caso essendo un array quello che dobbiamo recuperare non possiamo usare semplicemente la dot syntax come fatto sopra.
+    // In questo caso essendo un array quello che dobbiamo recuperare non possiamo usare semplicemente la dot syntax.
     let pokemonType = pokemon["types"];
     // console.log(pokemonType);
     
