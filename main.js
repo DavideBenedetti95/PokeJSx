@@ -8,7 +8,7 @@ let pokemon_description = document.querySelector("#pokemon_description")
 
 
 // Teniamo conto di quanti pokemon vogliamo mostrare
-const pokemonCount = 493;
+const pokemonCount = 151;
 let pokedex = {};
 
 // Al caricamento della pagina facciamo partire una funzione asincrona che andra a richiamare un altra funzione asincrona che ci permettera di ricevere i dati dei pokemon.
