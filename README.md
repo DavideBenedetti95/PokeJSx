@@ -7,6 +7,7 @@ Nasce come progetto per comprendere in modo piu approfondito , come prendere e m
 Link guida youtube : https://www.youtube.com/watch?v=dVtnFH4m_fE&t=4s
 
 Live Demo : https://davidebenedetti95.github.io/PokeJSx/
+Alternative Link: https://poke-j-sx.vercel.app
 
 ## Informazioni aggiuntive:
 
